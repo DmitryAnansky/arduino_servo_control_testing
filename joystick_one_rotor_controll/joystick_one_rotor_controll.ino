@@ -29,7 +29,7 @@ void loop()
 {
   myservo1.attach(A1);
 
-  x1 = analogRead(right_X); //default joustick x1 = 354; final right x1 = 0; final left x1 = 720;
+  x1 = analogRead(right_X); //default joystick x1 = 354; final right x1 = 0; final left x1 = 720;
   y1 = analogRead(right_Y);
   z1 = analogRead(right_key);
 
